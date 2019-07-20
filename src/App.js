@@ -2,30 +2,29 @@ import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios'
+import { Provider } from 'react-redux'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
+
 import jwtDecode from 'jwt-decode'
 import Header from './Header'
 import store from './redux'
-import { Provider } from 'react-redux'
+import Home from './screens/Home'
+import Admin from './screens/admin'
+import Restrito from './screens/restrito'
+import Login from './screens/Login'
 function App() {
-  /* useEffect(async () => {
- 
-     let token = localStorage.getItem('token')
-     if (!token) {
-       const login = await axios.post('http://localhost:3001/users/login', {
-         "email": "marcos@gmail.com",
-         "passwd": "123456"
-       })
-       const token = login.data.token;
-       localStorage.setItem('token', token);
-     }
-     const decoded = jwtDecode(token)
-     console.log(decoded);
-   }, []) */
+
   return (
     <Provider   store={store}>
+    <Router>
       <div className="App">
+      <Route exact path='/' component={Home} />
+      <Route  path='/admin' component={Admin} />
+      <Route  path='/restrito' component={Restrito} />
+      <Route path='/login' component={Login} />
         <Header/>
       </div>
+    </Router>  
     </Provider>
   );
 }
