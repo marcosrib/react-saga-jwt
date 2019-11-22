@@ -22,3 +22,6 @@ Aplicação para gerenciar tempo, percurso percorrido e a data da corrida.
 * [reduxsauce](https://www.npmjs.com/package/reduxsauce)    
 * [semantic-ui-react](https://www.npmjs.com/package/semantic-ui-react) 
 * [semantic-ui-css](https://www.npmjs.com/package/semantic-ui-css) 
+* [axios](https://www.npmjs.com/package/axios)
+* [jwt-decode](https://www.npmjs.com/package/jwt-decode)
+* [semantic-ui-css](https://momentjs.com/timezone/)
