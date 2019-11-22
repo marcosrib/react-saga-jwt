@@ -6,7 +6,7 @@ Aplicação para gerenciamento de corridas.
 ## Índece
 
 * Utilizados no projeto
-  * [Bibliotecas](#introduction)
+  * [Bibliotecas](#Bibliotecas)
   # Available Scripts
 
 In the project directory, you can run:
