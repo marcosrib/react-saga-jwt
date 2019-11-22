@@ -12,6 +12,7 @@ Aplicação para gerenciamento de corridas.
 ## Introdução
 
 Aplicação para gerenciar tempo, percurso percorrido e a data da corrida. 
+O backend foi desenvolvido em nodejs
 
 ## Utilizados no projeto
 
@@ -24,4 +25,4 @@ Aplicação para gerenciar tempo, percurso percorrido e a data da corrida.
 * [semantic-ui-css](https://www.npmjs.com/package/semantic-ui-css) 
 * [axios](https://www.npmjs.com/package/axios)
 * [jwt-decode](https://www.npmjs.com/package/jwt-decode)
-* [semantic-ui-css](https://momentjs.com/timezone/)
+* [moment-timezone](https://momentjs.com/timezone/)
