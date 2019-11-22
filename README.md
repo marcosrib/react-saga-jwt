@@ -1,6 +1,6 @@
 # Reactjs-Gerenciador de corridas
 
-Aplicação para gerenciamento de corridas.
+
 
 
 ## Índece
@@ -11,8 +11,7 @@ Aplicação para gerenciamento de corridas.
 
 ## Introdução
 
-Aplicação para gerenciar tempo, percurso percorrido e a data da corrida. 
-O backend foi desenvolvido em nodejs
+Aplicação para gerenciamento de corridas, onde o backend foi desenvolvido em nodejs.
 
 ## Utilizados no projeto
 
